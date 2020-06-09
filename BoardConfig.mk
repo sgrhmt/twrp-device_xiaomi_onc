@@ -345,3 +345,4 @@ TARGET_ENABLE_MEDIADRM_64 := true
 #################################################################################
 -include vendor/qcom/defs/board-defs/legacy/*.mk
 #################################################################################
+include device/qcom/sepolicy/SEPolicy.mk
