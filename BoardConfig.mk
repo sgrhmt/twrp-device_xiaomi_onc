@@ -58,6 +58,7 @@ TARGET_COMPILE_WITH_MSM_KERNEL := true
 # Enable appended dtb
 TARGET_KERNEL_APPEND_DTB := true
 BOARD_USES_GENERIC_AUDIO := true
+BOARD_DO_NOT_STRIP_VENDOR_MODULES := true
 
 -include $(QCPATH)/common/msm8953_64/BoardConfigVendor.mk
 
